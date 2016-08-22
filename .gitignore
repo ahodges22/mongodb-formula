@@ -3,3 +3,14 @@
 # Backups
 *~
 *.bak
+# Bundler stuff
+vendor/
+Gemfile.lock
+# Testinfra cache
+.cache
+__pycache__
+*.pyc
+# Test kitchen stuff
+.kitchen
+# Junit reports
+junit*.xml
