@@ -8,8 +8,8 @@ driver:
   openstack_region: <%= ENV['OS_REGION_NAME'] %>
   key_name: <%= ENV['OS_KEY_NAME'] %>
   flavor_ref: m1.medium
-  network_ref: SHARESANDBOX
-  openstack_network_name: SHARESANDBOX
+  network_ref: <%= ENV['OS_NETWORK_REF'] %>
+  openstack_network_name: <%= ENV['OS_NETWORK_REF'] %>
   use_ipv6: true
 
 platforms:
