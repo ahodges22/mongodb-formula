@@ -10,7 +10,7 @@ provisioner:
   name: salt_solo
   formula: mongodb
   pillars-from-files:
-    mongodb.sls: pillar.example
+    mongodb.sls: test/fixtures/mongodb-norepo.sls
   pillars:
     top.sls:
       base:
